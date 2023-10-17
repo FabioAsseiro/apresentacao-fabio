@@ -25,14 +25,16 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    gap: 0% 0%
     
 }
 
 .principal__conteudo {
-    width: 400px ;
+    width: 450px ;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
 }
 
 .principal__conteudo__titulo {
