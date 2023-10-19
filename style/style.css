@@ -109,16 +109,16 @@ body{
 @media screen and (max-width: 768px) {
     .principal__links__link{
         padding: 5%;
-        font-size: 8px;
+        font-size: 15px;
         max-width: 100%;
-        width: 700%;
+        width: 70%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .principal__links{
         gap: 30px;
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
@@ -132,28 +132,4 @@ body{
         border-radius: 36px;
     }
 }
-
-@media screen and (max-width: 775px)  {
-    .principal__conteudo__titulo{
-        font-size: 16px;
-        
-    }
-}
-
-@media screen and (max-width: 775px) {
-    .principal__conteudo__texto{
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 775px) {
-    .principal__links__link{
-        width: 50%;
-        font-size: 16px;
-        height: 50%;
-        gap: 25px;
-    
-    }
-}
-
 
