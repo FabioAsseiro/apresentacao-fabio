@@ -156,9 +156,4 @@ body{
     }
 }
 
-@media screen and (max-width: 775px) {
-    .principal__img{
-        width: 200px;
-        height: 200px;
-    }
-}
+
