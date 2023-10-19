@@ -125,8 +125,8 @@ body{
 @media screen and (max-width: 768px) {
     .principal__img{
         max-width: 100%;
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         border-color: white;
         border: 1px solid;
         border-radius: 36px;
@@ -142,7 +142,7 @@ body{
 
 @media screen and (max-width: 775px) {
     .principal__conteudo__texto{
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
