@@ -71,3 +71,40 @@ body{
     
 }
 
+.principal__img {
+    border-color: white;
+    border: 3px solid;
+    border-radius: 26px;
+    max-width: 35%;
+    max-height: 50%;
+}
+
+@media screen and (max-width: 775px)  {
+    .principal__conteudo__titulo{
+        font-size: 20px;
+        
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .principal__conteudo__texto{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .principal__links__link{
+        width: 50%;
+        font-size: 16px;
+        height: 50%;
+        gap: 25px;
+    
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .principal__img{
+        width: 200px;
+        height: 200px;
+    }
+}
