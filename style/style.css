@@ -222,10 +222,11 @@ body{
         padding: 0.1%;
     }
 }
-
 @media screen and (max-width: 768px)  {
+
     .rodape__conteudo {
         font-size: 10px;
     }
 }
+
 
