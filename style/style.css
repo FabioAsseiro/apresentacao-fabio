@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
+:root {
+    --cor_de_fundo: #0F0F0F;
+    --cor_destaque: #008170;
+    --cor_bordas: #005b41;
+}
 
 * {
     padding: 0;
@@ -11,7 +16,7 @@
 body{
     overflow-y: scroll;
     box-sizing: border-box;
-    background-color: #0F0F0F;
+    background-color: var(--cor_de_fundo);
     color: white ;
     padding: 0;
 
@@ -28,7 +33,7 @@ body{
 }
 
 .cabecalho__menu__link {
-    color: #008170;
+    color: var(--cor_destaque);
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -64,7 +69,7 @@ body{
 
 
 .titulo_destaque {
-    color: #008170;
+    color: var(--cor_destaque);
 }
 
 
@@ -94,13 +99,13 @@ body{
 
 
 .principal__links__link{
-    box-shadow: 0px 0px 5px #008170;
+    box-shadow: 0px 0px 5px var(--cor_destaque);
     display: flex;
     justify-content: center;
     gap: 10px;
     align-items: center;
     /*background-color: #005B41;*/
-    border: 2px solid #005B41 ;
+    border: 2px solid var(--cor_bordas);
     width: 60%;
     text-align: center;
     border-radius: 35px;
@@ -119,8 +124,8 @@ body{
 
 
 .principal__img {
-    box-shadow: 0px 0px 25px #008170;
-    border: 2px solid #005B41 ;
+    box-shadow: 0px 0px 25px var(--cor_destaque);
+    border: 2px solid var(--cor_bordas);
     border-radius: 26px;
     max-width: 35%;
     max-height: 50%;
@@ -129,7 +134,7 @@ body{
 
 .rodape {
     padding: 0.1%;
-    background-color: #008170;
+    background-color: var(--cor_destaque);
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 19px;
@@ -184,6 +189,7 @@ body{
         font-size: 16px;
         max-width: 100%;
         width: 700%;
+        font-size: 10px;
     }
 }
 
@@ -205,5 +211,11 @@ body{
         border: 1px solid;
         border-radius: 36px;
         
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    .rodape__conteudo {
+        font-size: 10px;
     }
 }
