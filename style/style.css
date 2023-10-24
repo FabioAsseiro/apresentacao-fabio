@@ -37,7 +37,7 @@ body{
 .cabecalho__menu__link {
     color: var(--cor_destaque);
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -80,16 +80,6 @@ body{
     font-family: 'Oswald', sans-serif;
     font-weight:100;
 
-}
-
-.img_portfolio {
-    display: flex;
-    justify-content: center;
-    
-    max-width: 1200px;
-    max-height: 500px;
-    border-radius: 35px;
-    box-shadow: 0px 0px 5px var(--cor_destaque);
 }
 
 .principal__links {
@@ -219,11 +209,4 @@ body{
         align-items: center;
     }
 
-    .img_portfolio {
-        max-width: 450px;
-        max-height: 150px;
-        border-radius: 35px;
-        box-shadow: 0px 0px 5px var(--cor_destaque);
-    }
-    
 }
