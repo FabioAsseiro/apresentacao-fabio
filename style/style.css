@@ -36,7 +36,7 @@ body{
 .cabecalho__menu__link {
     color: var(--cor_destaque);
     font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     text-decoration: none;
 }
 
@@ -140,8 +140,6 @@ body{
 }
 
 .rodape {
-    position:absolute;
-    bottom: 0;
     width: 100%;
     padding: 1%;
     background-color: var(--cor_destaque);
@@ -153,7 +151,6 @@ body{
 .rodape__conteudo {
     font-size: 17px;
 }
-
 
 
 @media screen and (max-width: 940px) {
