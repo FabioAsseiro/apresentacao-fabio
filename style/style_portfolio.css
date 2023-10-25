@@ -80,7 +80,7 @@ body{
 .rodape {
     bottom: 0;
     width: 100%;
-    padding: 1%;
+    padding: 0.5%;
     background-color: var(--cor_destaque);
     text-align: center;
     font-family: 'Oswald', sans-serif;
