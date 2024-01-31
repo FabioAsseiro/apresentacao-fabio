@@ -15,6 +15,7 @@
 }
     
 body{
+    overflow-x: hidden;
     overflow-y: scroll;
     box-sizing: border-box;
     background-color: var(--cor_de_fundo);
@@ -61,6 +62,7 @@ body{
 
 
 .principal__conteudo__titulo {
+    overflow: hidden;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -119,6 +121,12 @@ body{
 
 .principal__links__link:hover /*Quando passar o mouse em cima*/{
     background-color: var(--cor_hover);
+}
+
+
+.principal__links__img{
+    max-width: 29px;
+    max-height: 31px;
 }
 
 
